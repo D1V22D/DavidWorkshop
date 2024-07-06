@@ -1,1 +1,0 @@
-{'david': {'name': 'danny', 'age': 13, 'phone-no': '9942123048'}, 'danny': {'name': 'danny', 'age': 13, 'phone-no': '9942123048'}}
