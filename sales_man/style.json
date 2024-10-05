@@ -1,0 +1,76 @@
+{
+	"QCustomSlideMenu": [{
+		"name": "NavigContainer",
+		"defaultSize": [{
+			"width": 50,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 50,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 193,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "side_panel",
+			"icons": [{
+				"whenMenuIsCollapsed": "/home/david/Documents/Work/Python/projects/icons/align-justify.svg",
+				"whenMenuIsExpanded": "/home/david/Documents/Work/Python/projects/icons/chevrons-left.svg"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 200,
+			"animationEasingCurve": "OutBack"
+		}]
+	}],
+	"QPushButton": [
+		{
+			"Buttons": [
+				"home_btn",
+				"sales_btn",
+				"sales_btn",
+				"report_btn",
+				"settings_btn",
+				"Info_btn",
+				"quit_btn"
+			],
+			"Style":[{
+				"Active": "background-color: #2e3436;",
+				"NotActive": ""
+			}]
+		}
+	],
+	"QCustomQStackedWidget":[
+		{
+			"name":"stack_center_widget",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"home_btn": "Home_page",
+							"data_analysis":"DataAnalysis_page",
+							"settings_btn":"setting_page",
+							"quit_btn":"quit_page",
+							"Info_btn":"info_page"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"Data_anal_stack",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"line_ch": "line_page",
+							"bar_ch": "bar_page"
+						}
+					]
+				}
+			]
+		}
+	]
+}

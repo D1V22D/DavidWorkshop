@@ -1,0 +1,9 @@
+2024-05-07 00:09:53,820 - DEBUG - CACHEDIR=/home/david/.cache/matplotlib
+2024-05-07 00:09:53,824 - DEBUG - Using fontManager instance from /home/david/.cache/matplotlib/fontlist-v330.json
+2024-05-07 00:09:54,269 - DEBUG - Loaded backend qtagg version 6.7.0.
+2024-05-07 00:10:49,336 - DEBUG - CACHEDIR=/home/david/.cache/matplotlib
+2024-05-07 00:10:49,339 - DEBUG - Using fontManager instance from /home/david/.cache/matplotlib/fontlist-v330.json
+2024-05-07 00:10:49,658 - DEBUG - Loaded backend qtagg version 6.7.0.
+2024-05-07 00:24:25,212 - DEBUG - CACHEDIR=/home/david/.cache/matplotlib
+2024-05-07 00:24:25,216 - DEBUG - Using fontManager instance from /home/david/.cache/matplotlib/fontlist-v330.json
+2024-05-07 00:24:25,559 - DEBUG - Loaded backend qtagg version 6.7.0.
